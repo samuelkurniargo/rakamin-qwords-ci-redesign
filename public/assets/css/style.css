@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;800&display=swap");
+
+* {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.w-200 {
+  max-width: 12.5rem;
+}
+.color-orange {
+  color: #ff6d0b;
+}
+.color-gray {
+  color: #6c757d;
+}
+.bg-orange {
+  background-color: #ff6d0b;
+}
+.bg-white-orange {
+  background-color: #feecdd;
+}
+.dropdown-menu {
+  width: 51.5625rem;
+}
+.navbar-dropdown {
+  display: flex;
+  padding: 0.75rem;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0.5rem;
+  color: black;
+}
+.ct-navbar__title {
+  font-weight: bold;
+}
+.ct-navbar__description {
+  max-width: 18.75rem;
+}
+.navbar-dropdown:hover {
+  background-color: #ff6d0b;
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  color: white;
+}
+.hero-banner,
+.partner > .image-list {
+  flex-direction: column;
+}
+.hero-desc {
+  max-width: 33.75rem;
+}
+.card-domain {
+  padding-right: 2rem;
+}
+.search-input > div > input {
+  height: 3.25rem;
+}
+.search-input > div > button {
+  width: 6rem;
+}
+.bg-orange > tr > td {
+  background-color: white;
+  color: black;
+}
+.price-table-head > div,
+.price-table-body > div {
+  padding: 1rem;
+}
+.price-table-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.price-table-body {
+  text-align: center;
+}
+.pricehome {
+  font-size: 1.75rem;
+}
+.qw-logo > img {
+  width: 75%;
+  max-width: 100%;
+}
+.list-unstyled > li {
+  padding-bottom: 0.5rem;
+}
+.list-unstyled > li > a {
+  text-decoration: none;
+  color: white;
+}
+.accordion > .accordion-item {
+  margin-bottom: 1rem;
+  border: 1px solid #d9d9d9;
+  border-radius: 0.375rem;
+}
+.accordion-item > h3 > button {
+  font-weight: 800;
+}
+.card-benefit-2 {
+  background-color: #fff8f3;
+}
+.contact-list > a {
+  border: 1px solid #ff6d0b;
+  border-radius: 1em;
+  padding: 1em;
+  color: #ff6d0b;
+  cursor: pointer;
+  text-decoration: none;
+}
+.contact-list > a:hover {
+  background-color: #ff6d0b;
+  transition: 0.5s;
+  color: #fff;
+}
+.contact-list > a:hover img {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%)
+    hue-rotate(106deg) brightness(105%) contrast(103%);
+}
+
+@media (min-width: 576px) {
+}
+
+@media screen and (min-width: 992px) {
+  .main-footer {
+    padding: 80px 7em 0;
+  }
+
+  .col-lg-auto {
+    flex: 0 0 auto;
+    width: auto;
+  }
+  .hero-banner, .partner > .image-list {
+    flex-direction: row;
+    width: auto;
+  }
+}
